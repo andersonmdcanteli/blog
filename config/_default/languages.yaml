@@ -2,21 +2,19 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
+# The default language is set to en
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  title: Canteli
+  params:
+    description: Anderson Marcos Dias Canteli's resume
+    
+pt:
+ languageCode: pt-br
+ contentDir: content/pt
+ title: Canteli
+ params:
+  description: Currículo de Anderson Marcos Dias Canteli
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+
